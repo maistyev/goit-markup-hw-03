@@ -1,0 +1,174 @@
+:root {
+  --primaryBrandCol: #4d5ae5;
+  --pressedStateCol: #404bbf;
+  --darkCol: #2e2f42;
+  --successCol: #31d0aa;
+  --textCol: #434455;
+  --subtleTextCol: #8e8f99;
+  --accentCol: #e7e9fc;
+  --lightCol: #f4f4fd;
+  --modalOverlayCol: #2e2f42;
+  --heroBackCol: #2e2f42;
+  --modalBackCol: #fcfcfc;
+}
+
+body {
+  background: #fff;
+  color: var(--textCol);
+  font-family: Roboto, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+h3 {
+  color: var(--darkCol);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.logo {
+  color: var(--primaryBrandCol);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo .dark {
+  color: var(--darkCol);
+}
+
+.logo .light {
+  color: var(--lightCol);
+}
+
+.nav-link {
+  color: var(--darkCol);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.nav-link:hover {
+  color: var(--pressedStateCol);
+}
+
+.nav-link:focus {
+  color: var(--pressedStateCol);
+}
+
+.address {
+  font-style: normal;
+}
+
+.contact-info {
+  color: var(--textCol);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.contact-info:hover {
+  color: var(--pressedStateCol);
+}
+
+.contact-info:focus {
+  color: var(--pressedStateCol);
+}
+
+.hero {
+  background: var(--darkCol);
+}
+
+.hero-title {
+  color: white;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: var(--primaryBrandCol);
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background: var(--pressedStateCol);
+}
+
+.hero-button:focus {
+  background: var(--pressedStateCol);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team-section {
+  background: var(--lightCol);
+}
+
+.img-card {
+  background-color: #ffffff;
+}
+
+.footer {
+  background: var(--darkCol);
+}
+
+.footer-text {
+  color: var(--lightCol);
+}
