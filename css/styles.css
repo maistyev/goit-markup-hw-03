@@ -226,6 +226,7 @@ section {
 /* #region HERO SECTION */
 .hero {
   background: var(--darkCol);
+  padding: 188px 0;
 }
 
 .hero-container {
@@ -235,7 +236,6 @@ section {
   align-items: center;
   gap: 40px;
   height: 360px;
-  padding: 188px 0;
 }
 
 .hero-title {
@@ -333,16 +333,12 @@ section {
 
 .footer {
   background: var(--darkCol);
+  padding: 100px 0;
 }
 
 .footer-text {
   color: var(--lightCol);
   width: 264px;
-}
-
-.footer-container {
-  height: 312px;
-  padding: 100px 0;
 }
 
 .footer-logo {
